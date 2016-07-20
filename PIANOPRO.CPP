@@ -15,10 +15,8 @@
 void pass()
 {
 	clrscr();
-	char a[20],b[]="mittal";
+	char a[20],b[]="Mittal";
 	cout<<"  Enter Current User Password  ";
-	cout<<"\n\n\nHINT :  You idiot !! BOND Doesn't requires a hint \n";
-	cout<<"\n\nThe Name is Mittal....\nSarthak mittal";
 	for(int i=0;i<20;i++)
 	{
 		a[i]=getch();
