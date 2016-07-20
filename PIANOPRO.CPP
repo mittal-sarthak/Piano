@@ -16,7 +16,7 @@ void pass()
 {
 	clrscr();
 	char a[20],b[]="Mittal";
-	cout<<"  Enter Current User Password  ";
+	cout<<"  Enter Current User Password  "<<endl;
 	for(int i=0;i<20;i++)
 	{
 		a[i]=getch();
